@@ -1,4 +1,4 @@
-package com.derekcacciotti.dcpetclinic;
+package dcpetclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
