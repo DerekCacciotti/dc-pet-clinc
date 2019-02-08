@@ -2,9 +2,11 @@ package com.derekcacciotti.dcpetclinic.services.map;
 
 import com.derekcacciotti.dcpetclinic.model.Pet;
 import com.derekcacciotti.dcpetclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
 
